@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0.2, 0.2, 0.2, 0.2);
+    padding: 30px;
+    width: 350px;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.pokemon-id {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pokemon-name {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize; 
+    margin: 5px 0;
+}
+
+.pokemon-types {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.pokemon-type-button {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 14px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pokemon-type-button:hover {
+    color: white;
+}
+
+.pokemon-type-button.fire { background-color: #fba54c; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.water { background-color: #6a8fcd; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.grass { background-color: #9bce6f; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.electric { background-color: #f2d54b; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.ice { background-color: #9bd9e8; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.fighting { background-color: #d67b7f; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.poison { background-color: #a04c99; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.ground { background-color: #e3b761; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.flying { background-color: #a7c1c8; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.psychic { background-color: #ea8fc5; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.bug { background-color: #d1e34c; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.rock { background-color: #c3b177; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.ghost { background-color: #6b5b7c; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.dragon { background-color: #7b3a6c; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.dark { background-color: #5b5b5b; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.steel { background-color: #b8b8d0; color: white; font-weight: bold; text-transform: capitalize;}
+.pokemon-type-button.fairy { background-color: #e4a5d8; color: white; font-weight: bold; text-transform: capitalize;}
+
+.pokemon-moves, .pokemon-generation {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #9E3AEA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #972FEB;
+}
