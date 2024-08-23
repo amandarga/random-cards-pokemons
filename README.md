@@ -8,4 +8,4 @@
 
  Primeira atividade feita para a cadeira de Coding III.
 
- Deploy!
+[Deploy!](https://randomcardspokemons.netlify.app)
