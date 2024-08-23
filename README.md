@@ -1,4 +1,4 @@
-# Cards aleátorios de Pokémons
+# Cards aleátorios de Pokémons ![Imagem de uma pokebola]([https://example.com/logo.png](https://img.icons8.com/?size=100&id=eQoYCq7PgMch&format=png&color=000000))
  Projeto simples de uma aplicação web que consuma e exiba dados de uma API pública.
 
  A api escolhida foi a PokéAPI.
@@ -7,3 +7,5 @@
  Alguns pokemons das gerações 6 em diante não possuem imagens.
 
  Primeira atividade feita para a cadeira de Coding III.
+
+ Deploy!
