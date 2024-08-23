@@ -1,4 +1,4 @@
-# Cards aleátorios de Pokémons ![Imagem de uma pokebola](https://img.icons8.com/?size=100&id=eQoYCq7PgMch&format=png&color=000000
+# Cards aleátorios de Pokémons ![Imagem de uma pokebola](https://img.icons8.com/?size=100&id=eQoYCq7PgMch&format=png&color=000000)
  Projeto simples de uma aplicação web que consuma e exiba dados de uma API pública.
 
  A api escolhida foi a PokéAPI.
