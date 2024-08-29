@@ -3,7 +3,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
 }
@@ -136,5 +135,11 @@ button:hover {
 
     .pokemon-id, .pokemon-name, .pokemon-moves, .pokemon-generation {
         font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        height: 100vh;
     }
 }
