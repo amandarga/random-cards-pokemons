@@ -8,6 +8,8 @@
  Alguns pokemons das gerações 6 em diante não possuem imagens.
  <br/>
  Com media query aplicado para telas de celular.
+ <br/>
+ O site está pronto para ser adicionado nos celulares. Basta ir nas opções no navegador e adicionar à tela de início.
 
  Primeira atividade feita para a cadeira de Coding III.
 
