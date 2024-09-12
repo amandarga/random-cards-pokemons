@@ -1,0 +1,17 @@
+{
+    "name": "Pokémon Cards",
+    "short_name": "Pokécards",
+    "description": "Um aplicativo para sortear e exibir Pokémon",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#9E3AEA",
+    "icons": [
+      {
+        "src": "/images/pokebola-favicon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ]
+  }
+  
